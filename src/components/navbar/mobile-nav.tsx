@@ -4,6 +4,7 @@ import { Button } from "../ui/button";
 import logo from "../../../public/logo.svg";
 import Link from "next/link";
 import Image from "next/image";
+import NavAccordianItem from "./navAccordian";
 
 const MobileNav = () => {
   return (
@@ -22,9 +23,7 @@ const MobileNav = () => {
             </SheetTitle>
         </SheetHeader>
         <div className="py-4 flex flex-col gap-6 text-secondary-foreground font-extralight transition-all">
-          <Link href={"/"} className="hover:font-normal">
-            Explore Courses
-          </Link>
+          <NavAccordianItem />
           <Link href={"/"} className="hover:font-normal">
             Success Stories
           </Link>

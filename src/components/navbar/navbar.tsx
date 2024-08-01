@@ -3,6 +3,7 @@ import logo from "../../../public/logo.svg";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import MobileNav from "./mobile-nav";
+import NavDropDownItem from "./dropdown";
 
 const Navbar = () => {
   return (
@@ -14,8 +15,9 @@ const Navbar = () => {
             <Link href={"/"} className="w-[220px]">
                 <Image src={logo} alt="logo" className="w-full h-full object-cover" />
             </Link>
-            <div className="hidden md:block space-x-6 text-secondary-foreground font-extralight transition-all">
-                <Link href={"/"} className="hover:font-normal">Explore Courses</Link>
+            <div className="hidden md:flex gap-6 text-secondary-foreground font-extralight transition-all">
+                    <NavDropDownItem />
+                
                 <Link href={"/"} className="hover:font-normal">Success Stories</Link>
                 <Link href={"/"} className="hover:font-normal">Blogs</Link>
                 <Link href={"/"} className="hover:font-normal">Events</Link>
