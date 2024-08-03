@@ -7,7 +7,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { carouselData } from "@/data/herosection";
-import CarouselCard from "../carouselCard";
+import CarouselCard from "./carouselCard";
 import Autoplay from "embla-carousel-autoplay";
 
 const CarouseSection = () => {
