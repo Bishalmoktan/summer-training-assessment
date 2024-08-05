@@ -1,5 +1,6 @@
 import Companies from "./_components/companies";
 import HeroSection from "./_components/herosection/herosection";
+import WhyChooseUs from "./_components/whyChooseUs/whyChooseUs";
 import ImpactBanner from "./banner/impactBanner";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <Companies />
       <ImpactBanner />
+      <WhyChooseUs />
     </>
   );
 }

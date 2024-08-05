@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(inter.className)}>
         <Navbar />
-        <div className="spacey-8 my-8">{children}</div>
+        <div className="space-y-8 my-8">{children}</div>
       </body>
     </html>
   );
