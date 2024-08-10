@@ -4,9 +4,9 @@ import { Button } from "@/components/ui/button";
 
 const TargetAudience = () => {
   return (
-    <section className="container space-y-8 py-16">
+    <section className="container space-y-8 py-8">
       <article className="text-center">
-        <h1 className="text-4xl font-bold">Who is this Course for?</h1>
+        <h1 className="text-3xl font-semibold tracking-wider">Who is this Course for?</h1>
       </article>
       <div className="grid grid-cols-1 gap-10 md:grid-cols-2 justify-items-center">
         {data.map((item, index) => (
