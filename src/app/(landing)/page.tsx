@@ -4,6 +4,7 @@ import LearningOutcome from "./_components/learningOutcome/learningOutcome";
 import TargetAudience from "./_components/targetAudience/targetAudience";
 import WhyChooseUs from "./_components/whyChooseUs/whyChooseUs";
 import ImpactBanner from "./_components/banner/impactBanner";
+import CourseCurriculum from "./_components/courseCurriculum/courseCurriculum";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <WhyChooseUs />
       <TargetAudience />
       <LearningOutcome />
+      <CourseCurriculum />
     </>
   );
 }

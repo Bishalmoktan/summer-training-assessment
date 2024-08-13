@@ -5,7 +5,7 @@ const WhyChooseUs = () => {
   return (
     <section className="container space-y-8 py-8">
       <article className="text-center">
-        <h1 className="text-3xl font-semibold tracking-wider">Why Choose Our Course?</h1>
+        <h1 className="text-2xl md:text-3xl font-semibold tracking-wider">Why Choose Our Course?</h1>
         <p className="font-extralight">
           Discover the key benefits of mastering Backend Engineering with the
           JAVA Spring Framework.

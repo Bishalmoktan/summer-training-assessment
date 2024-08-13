@@ -8,7 +8,7 @@ const AnimateSection = () => {
       {data.map((item) => {
         const { id, Icon, title, description } = item;
         return (
-          <div key={id} className="w-max p-4 md:p-0 md:pb-5 mx-auto flex md:gap-20 relative bg-[#F8FAFC] rounded-md  mb-4 md:mb-0 md:bg-none">
+          <div key={id} className="w-max p-4 md:p-0 md:pb-20 mx-auto flex md:gap-20 relative bg-[#F8FAFC] rounded-md  mb-4 md:mb-0 md:bg-none">
             <div className={cn(
               'hidden md:block',
               `before:absolute before:left-[8px] before:top-1 before:h-full before:bg-[#D0D5DD]`,
