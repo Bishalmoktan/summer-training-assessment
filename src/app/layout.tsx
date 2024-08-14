@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={cn(inter.className)}>
         <Navbar />
-        <div className="space-y-8 my-8">{children}</div>
+        <div className="my-8">{children}</div>
         <Footer />
       </body>
     </html>

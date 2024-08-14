@@ -5,6 +5,9 @@ import TargetAudience from "./_components/targetAudience/targetAudience";
 import WhyChooseUs from "./_components/whyChooseUs/whyChooseUs";
 import ImpactBanner from "./_components/banner/impactBanner";
 import CourseCurriculum from "./_components/courseCurriculum/courseCurriculum";
+import ProjectSection from "./_components/projectsSection/projectsSection";
+import MentorSection from "./_components/mentorSection/mentorSection";
+import MentorSectionMobile from "./_components/mentorSection/mentorSectionMobile";
 
 export default function Home() {
   return (
@@ -16,6 +19,9 @@ export default function Home() {
       <TargetAudience />
       <LearningOutcome />
       <CourseCurriculum />
+      <ProjectSection />
+      <MentorSection />
+      <MentorSectionMobile />
     </>
   );
 }

@@ -5,7 +5,6 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import Image, { StaticImageData } from "next/image";
-import swiggy from "../../../../public/swiggy.png";
 import { Badge } from "@/components/ui/badge";
 
 interface CarouselCardProps {
