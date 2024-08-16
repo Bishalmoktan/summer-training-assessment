@@ -8,6 +8,7 @@ import CourseCurriculum from "./_components/courseCurriculum/courseCurriculum";
 import ProjectSection from "./_components/projectsSection/projectsSection";
 import MentorSection from "./_components/mentorSection/mentorSection";
 import MentorSectionMobile from "./_components/mentorSection/mentorSectionMobile";
+import SuccessStories from "./_components/successStories/successStories";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <ProjectSection />
       <MentorSection />
       <MentorSectionMobile />
+      <SuccessStories />
     </>
   );
 }
