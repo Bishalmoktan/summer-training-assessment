@@ -10,6 +10,7 @@ import MentorSection from "./_components/mentorSection/mentorSection";
 import MentorSectionMobile from "./_components/mentorSection/mentorSectionMobile";
 import SuccessStories from "./_components/successStories/successStories";
 import Pricing from "./_components/pricing/pricing";
+import CommunitySection from "./_components/communitySection/communitySection";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <MentorSectionMobile />
       <SuccessStories />
       <Pricing />
+      <CommunitySection />
     </>
   );
 }
