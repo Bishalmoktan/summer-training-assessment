@@ -14,6 +14,7 @@ import CommunitySection from "./_components/communitySection/communitySection";
 import FAQSection from "./_components/faqSection/faqSection";
 import Courses from "./_components/courses/courses";
 import Blogs from "./_components/blogs/blogs";
+import CTA from "./_components/cta/cta";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <FAQSection />
       <Courses />
       <Blogs />
+      <CTA />
     </>
   );
 }
