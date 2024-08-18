@@ -12,6 +12,7 @@ import SuccessStories from "./_components/successStories/successStories";
 import Pricing from "./_components/pricing/pricing";
 import CommunitySection from "./_components/communitySection/communitySection";
 import FAQSection from "./_components/faqSection/faqSection";
+import Courses from "./_components/courses/courses";
 
 export default function Home() {
   return (
@@ -30,6 +31,7 @@ export default function Home() {
       <Pricing />
       <CommunitySection />
       <FAQSection />
+      <Courses />
     </>
   );
 }
