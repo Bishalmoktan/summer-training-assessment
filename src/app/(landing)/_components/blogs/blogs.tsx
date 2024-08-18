@@ -1,7 +1,7 @@
-import { data } from "@/data/courses";
-import CoursesCard from "./coursesCard";
+import { data } from "@/data/blog";
+import BlogCard from "./blogCard";
 
-const Courses = () => {
+const Blogs = () => {
   return (
     <section className="container py-8">
       <h2 className="text-2xl md:text-3xl font-semibold tracking-wider text-center">
@@ -10,11 +10,11 @@ const Courses = () => {
       <div className="flex flex-col md:flex-row justify-evenly gap-4 my-8">
         {data.map((item) => (
           <div key={item.id}>
-            <CoursesCard {...item} />
+            <BlogCard {...item} />
           </div>
         ))}
       </div>
     </section>
   );
 };
-export default Courses;
+export default Blogs;

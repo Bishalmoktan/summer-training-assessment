@@ -23,7 +23,7 @@ const CarouseSection = () => {
       <CarouselContent className="mx-auto">
         {data.map((item) => (
           <CarouselItem key={item.id} className="md:basis-1/2 lg:basis-1/3">
-            <CarouselCard {...item}  />
+            <CarouselCard {...item} />
           </CarouselItem>
         ))}
       </CarouselContent>
